@@ -18,6 +18,8 @@ In this project we:
 2. **Add our own contribution:** a **classical TF-IDF + Logistic Regression baseline** on the IMDB sentiment dataset and compare it with the LLM zero-shot results.
 
 ## 2. Repository Structure
+
+```text
 .
 ├── notebooks/
 │   └── phase1_env_setup.ipynb               # Initial Colab environment setup
@@ -25,10 +27,10 @@ In this project we:
 ├── outputs/
 │   └── contrib_logreg/
 │       └── imdb/
-│           ├── .gitkeep                     
+│           ├── .gitkeep
 │           └── prediction.csv               # Logistic Regression predictions (contribution)
 │
 ├── LLM_Sentiment_Contribution.ipynb         # Contribution: TF-IDF + Logistic Regression (IMDB)
 ├── LLM_sentiment_zero_shot.ipynb            # Zero-shot evaluation pipeline reproduction
 ├── README.md
-
+```
