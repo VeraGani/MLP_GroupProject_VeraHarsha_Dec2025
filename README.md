@@ -1,4 +1,27 @@
 Title: Sentiment Analysis in the Era of Large Language Models
+Team Members: Vera Ganicheva and Harsha Vardhani Mundeshwar
+This repository contains all project materials, code, datasets, and documentation related to the research project "Sentiment Analysis in the Era of Large Language Models." The project explores how modern LLMs transform traditional sentiment analysis approaches, comparing classical ML methods with LLM-based techniques.
+
+Repository Structure
+
+├── notebooks/
+│   └── phase1_env_setup.ipynb               # Initial Colab environment setup
+│
+├── outputs/
+│   ├── contrib_logreg/                      # Logistic Regression predictions (contribution)
+│   │   └── imdb/
+│   │        ├── .gitkeep
+│   │        └── prediction.csv              # Logistic Regression prediction file
+│   │
+│   ├── contrib_mlp/                         # MLP Classifier predictions (contribution)
+│   │   └── imdb/
+│   │        ├── .gitkeep
+│   │        └── prediction.csv              # MLP prediction file
+│
+├── LLM_Sentiment_Contribution.ipynb         # Contribution: TF-IDF + LogReg + MLP (IMDB)
+├── LLM_sentiment_zero_shot.ipynb            # Zero-shot evaluation pipeline reproduction
+├── README.md                                # Project documentation
+
 
 phase1_env_setup.ipynb
 
